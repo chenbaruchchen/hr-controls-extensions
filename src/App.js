@@ -1,7 +1,14 @@
+
+
 import logo from './logo.svg';
 import './App.css';
 
+import PopUp from './PopUp'
 function App() {
+
+
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -15,9 +22,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         new
         </a>
       </header>
+     <PopUp/>
     </div>
   );
 }
